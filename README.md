@@ -19,33 +19,15 @@ Notice that all you need are three pieces of information:
 
 Use the <b>Codebook Converter.ipynb</b> Jupyter Notebook to run the converter. Additional instructions are given within the notebook.
 
-After running the program, you will get the following STATA output:
+After running the program, you will get STATA output for each variable:
 
+Here's an example of the STATA output for the variable `pre_ma3`
 
-# * pre_ma3 DATA LABELING
-# label variable pre_ma3 "I like class work best when it really makes me think"
-# label define pre_ma3label 1 "Not at all true" 2 "Not true" 3 "Somewhat true" 4 "True" 5 "Very true"
-# label values pre_ma3 pre_ma3label
+# * pre_ma3 DATA LABELING <br>
+# label variable pre_ma3 "I like class work best when it really makes me think"  <br>
+# label define pre_ma3label 1 "Not at all true" 2 "Not true" 3 "Somewhat true" 4 "True" 5 "Very true"  <br>
+# label values pre_ma3 pre_ma3label  <br>
 
-* pre_pav6 DATA LABELING
-label variable pre_pav6 "One reason I would not participate in class is to avoid looking stupid"
-label define pre_pav6label 1 "Not at all true" 2 "Not true" 3 "Somewhat true" 4 "True" 5 "Very true"
-label values pre_pav6 pre_pav6label
-
-* pre_ma5 DATA LABELING
-label variable pre_ma5 "An important reason I do my class work is because I enjoy it"
-label define pre_ma5label 1 "Not at all true" 2 "Not true" 3 "Somewhat true" 4 "True" 5 "Very true"
-label values pre_ma5 pre_ma5label
-
-* pre_int DATA LABELING
-label variable pre_int "Are you an international student?"
-label define pre_intlabel 1 "Yes"  0 "No"
-label values pre_int pre_intlabel
-
-* pre_eng DATA LABELING
-label variable pre_eng "Is English your native language"
-label define pre_englabel 1 "Yes"  0 "No"
-label values pre_eng pre_englabel
 
 ## Author
 
