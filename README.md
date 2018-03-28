@@ -14,8 +14,8 @@ Notice that all you need are three pieces of information:
 
 <b>Item</b> contains the question item
 
-<b>Response Options</b> contains the response options for each question item
-</b></b>
+<b>Response Options</b> contains the response options for each question item.
+<br><br>
 Use the <b>Codebook Converter.ipynb</b> Jupyter Notebook to run the converter. Additional instructions are given within the notebook.
 
 After running the program, you will get STATA output for each variable:
