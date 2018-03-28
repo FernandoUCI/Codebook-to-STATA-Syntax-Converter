@@ -6,7 +6,7 @@ It is important that the first three columns of your codebook are labeled and fo
 
 Here's this csv file looks when opened:
 
-![alt text]
+![alt text](https://github.com/FernandoUCI/Codebook-to-STATA-Syntax-Converter/blob/master/codebook_screenshot.png)
 
 The codebook_file.csv contains three important pieces of information that are needed to 
 1) Variable, 2) Item, and 3) Response Options
