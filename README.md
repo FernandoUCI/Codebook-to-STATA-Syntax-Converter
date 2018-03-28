@@ -21,10 +21,11 @@ Use the <b>Codebook Converter.ipynb</b> Jupyter Notebook to run the converter. A
 
 After running the program, you will get the following STATA output:
 
-* pre_ma3 DATA LABELING
-label variable pre_ma3 "I like class work best when it really makes me think"
-label define pre_ma3label 1 "Not at all true" 2 "Not true" 3 "Somewhat true" 4 "True" 5 "Very true"
-label values pre_ma3 pre_ma3label
+
+# * pre_ma3 DATA LABELING
+# label variable pre_ma3 "I like class work best when it really makes me think"
+# label define pre_ma3label 1 "Not at all true" 2 "Not true" 3 "Somewhat true" 4 "True" 5 "Very true"
+# label values pre_ma3 pre_ma3label
 
 * pre_pav6 DATA LABELING
 label variable pre_pav6 "One reason I would not participate in class is to avoid looking stupid"
@@ -45,7 +46,6 @@ label values pre_int pre_intlabel
 label variable pre_eng "Is English your native language"
 label define pre_englabel 1 "Yes"  0 "No"
 label values pre_eng pre_englabel
-
 
 ## Author
 
