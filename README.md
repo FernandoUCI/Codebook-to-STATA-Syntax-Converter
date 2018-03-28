@@ -4,7 +4,7 @@ This converter takes your typical csv-based codebook and converts the informatio
 
 It is important that the first three columns of your codebook are labeled and formatted the same way as the <b>codebook_file.csv</b>
 
-Here's this csv file looks when opened:
+Here's how this csv file looks when opened:
 
 ![alt text](https://github.com/FernandoUCI/Codebook-to-STATA-Syntax-Converter/blob/master/codebook_screenshot.png)
 
@@ -15,8 +15,7 @@ Notice that all you need are three pieces of information:
 <b>Item</b> contains the question item
 
 <b>Response Options</b> contains the response options for each question item
-
-
+</b></b>
 Use the <b>Codebook Converter.ipynb</b> Jupyter Notebook to run the converter. Additional instructions are given within the notebook.
 
 After running the program, you will get STATA output for each variable:
