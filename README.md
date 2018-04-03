@@ -30,50 +30,50 @@ The second part of the output labels each variable
 Here's how the output looks for the above csv file:
 
 
-##### * DEFINING LABELS FOR EACH UNIQUE RESPONSE OPTIONS
+##### * DEFINING LABELS FOR EACH UNIQUE RESPONSE OPTIONS<br><br>
 
-##### label define labelname4 1 "Yes"  0 "No"
+##### label define labelname4 1 "Yes"  0 "No"<br><br>
 
-##### label define labelname3 1 "Not at all true" 2 "Not true" 3 "Somewhat true" 4 "True" 5 "Very true"
+##### label define labelname3 1 "Not at all true" 2 "Not true" 3 "Somewhat true" 4 "True" 5 "Very true"<br><br>
 
-##### label define labelname2 1 "Participated" 0 "Did not participate"
+##### label define labelname2 1 "Participated" 0 "Did not participate"<br><br>
 
-##### label define labelname1 1 "Online" 0 "Face-to-face"
+##### label define labelname1 1 "Online" 0 "Face-to-face"<br><br><br><br>
 
 
-##### *** DATA LABELING ***
+##### *** DATA LABELING ***<br><br>
 
-##### * coursetype data label
-##### label variable coursetype "Course type"
-##### label values labelname1
+##### * coursetype data label<br>
+##### label variable coursetype "Course type"<br>
+##### label values labelname1<br><br>
 
-##### * pre_status data label
-##### label variable pre_status "Post-survey participation status"
-##### label values labelname2
+##### * pre_status data label<br>
+##### label variable pre_status "Post-survey participation status"<br>
+##### label values labelname2<br><br>
 
-##### * post_status data label
-##### label variable post_status "Participated in Post-Survey"
-##### label values labelname2
+##### * post_status data label<br>
+##### label variable post_status "Participated in Post-Survey"<br>
+##### label values labelname2<br><br>
 
-##### * pre_ma3 data label
-##### label variable pre_ma3 "I like class work best when it really makes me think"
-##### label values labelname3
+##### * pre_ma3 data label<br>
+##### label variable pre_ma3 "I like class work best when it really makes me think"<br>
+##### label values labelname3<br><br>
 
-##### * pre_pav6 data label
-##### label variable pre_pav6 "One reason I would not participate in class is to avoid looking stupid"
-##### label values labelname3
+##### * pre_pav6 data label<br>
+##### label variable pre_pav6 "One reason I would not participate in class is to avoid looking stupid"<br>
+##### label values labelname3<br><br>
 
-##### * pre_ma5 data label
-##### label variable pre_ma5 "An important reason I do my class work is because I enjoy it"
-#####label values labelname3
+##### * pre_ma5 data label<br>
+##### label variable pre_ma5 "An important reason I do my class work is because I enjoy it"<br>
+#####label values labelname3<br><br>
 
-##### * pre_int data label
-##### label variable pre_int "Are you an international student?"
-##### label values labelname4
+##### * pre_int data label<br>
+##### label variable pre_int "Are you an international student?"<br>
+##### label values labelname4<br><br>
 
-##### * pre_eng data label
-##### label variable pre_eng "Is English your native language"
-##### label values labelname4
+##### * pre_eng data label<br>
+##### label variable pre_eng "Is English your native language"<br>
+##### label values labelname4<br><br><br><br>
 
 
 
