@@ -19,13 +19,12 @@ Notice that all you need are three pieces of information:
 
 Use the <b>Codebook Converter.ipynb</b> Jupyter Notebook to run the converter. Additional instructions are given within the notebook.
 
-After running the program, you will get two get the following Stata Syntax:
-Syntax that defines the labels for each unique response option.
-Syntax that labels each labels each variable. 
+After running the program, you will get two get the following Stata Syntax:<br>
+Syntax that defines the labels for each unique response option.<br>
+Syntax that labels each labels each variable.<br>
 <br>
 <br>
-<br>
-<br>
+
 *** DEFINING LABELS FOR EACH UNIQUE RESPONSE OPTIONS ***
 
 label define labelname4 1 "Yes"  0 "No"
