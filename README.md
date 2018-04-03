@@ -35,7 +35,7 @@ label define labelname3 1 "Not at all true" 2 "Not true" 3 "Somewhat true" 4 "Tr
 label define labelname2 1 "Participated" 0 "Did not participate"
 
 label define labelname1 1 "Online" 0 "Face-to-face"
-
+<br><br><br>
 
 *** DATA LABELING ***
 
