@@ -39,38 +39,38 @@ label define labelname1 1 "Online" 0 "Face-to-face"
 
 *** DATA LABELING ***
 
-* coursetype data label
-label variable coursetype "Course type"
-label values labelname1
+* coursetype data label<br>
+label variable coursetype "Course type"<br>
+label values labelname1<br>
 
-* pre_status data label
-label variable pre_status "Pre-survey participation status"
-label values labelname2
+* pre_status data label<br>
+label variable pre_status "Pre-survey participation status"<br>
+label values labelname2<br>
 
-* post_status data label
-label variable post_status "Post-survey participation status"
-label values labelname2
+* post_status data label<br>
+label variable post_status "Post-survey participation status"<br>
+label values labelname2<br>
 
-* pre_ma3 data label
-label variable pre_ma3 "I like class work best when it really makes me think"
-label values labelname3
+* pre_ma3 data label<br>
+label variable pre_ma3 "I like class work best when it really makes me think"<br>
+label values labelname3<br>
 
-* pre_pav6 data label
-label variable pre_pav6 "One reason I would not participate in class is to avoid looking stupid"
-label values labelname3
+* pre_pav6 data label<br>
+label variable pre_pav6 "One reason I would not participate in class is to avoid looking stupid"<br>
+label values labelname3<br>
 
-* pre_ma5 data label
-label variable pre_ma5 "An important reason I do my class work is because I enjoy it"
-label values labelname3
+* pre_ma5 data label<br>
+label variable pre_ma5 "An important reason I do my class work is because I enjoy it"<br>
+label values labelname3<br>
 
-* pre_int data label
-label variable pre_int "Are you an international student?"
-label values labelname4
+* pre_int data label<br>
+label variable pre_int "Are you an international student?"<br>
+label values labelname4<br>
 
-* pre_eng data label
-label variable pre_eng "Is English your native language"
-label values labelname4
-
+* pre_eng data label<br>
+label variable pre_eng "Is English your native language"<br>
+label values labelname4<br>
+<br><br><br><br>
 
 ## Author
 
