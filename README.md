@@ -22,10 +22,13 @@ After running the program, you will get STATA output for each variable:
 
 Here's an example of the STATA output for the variable `pre_ma3`
 
-##### * pre_ma3 DATA LABELING <br>
-##### label variable pre_ma3 "I like class work best when it really makes me think"  <br>
-##### label define pre_ma3label 1 "Not at all true" 2 "Not true" 3 "Somewhat true" 4 "True" 5 "Very true"  <br>
-##### label values pre_ma3 pre_ma3label  <br>
+##### * DEFINING LABELS FOR EACH UNIQUE RESPONSE OPTIONS <br>
+##### label define labelname4 1 "Yes"  0 "No" <br>
+
+##### *** DATA LABELING ***
+##### label variable pre_int "Are you an international student?" <br>
+##### label values labelname4  <br>
+
 
 
 ## Author
