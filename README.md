@@ -1,7 +1,7 @@
 
-# Codebook to STATA Syntax Converter
+# Codebook to Stata Syntax Converter
 
-This converter takes your typical csv-based codebook and converts the information into data labeling syntax for STATA. 
+This converter takes your typical csv-based codebook and converts the information into data labeling syntax for Stata. 
 
 It is important that the first three columns of your codebook are labeled and formatted the same way as the <b>codebook_file.csv</b>
 
