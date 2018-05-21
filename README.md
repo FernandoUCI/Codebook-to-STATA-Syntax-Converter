@@ -17,7 +17,7 @@ Notice that all you need are three pieces of information:
 
 <b>Response Options</b> contains the response options for each question item.
 
-Use the <b>Codebook Converter.ipynb</b> Jupyter Notebook to run the converter. Additional instructions are given within the notebook.
+Use the <b>CodebookConverter.py</b> to run the converter. Details about the structure of the code can be found in the <b>CodebookConverter.ipynb</b> notebook.
 
 After running the program, you will get two get the following Stata Syntax:<br>
 Syntax that defines the labels for each unique response option.<br>
